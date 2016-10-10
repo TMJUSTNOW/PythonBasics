@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9c07afcf-3d04-41e1-b2de-2a8a7dff9e04</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Fizzbuzz.py</StartupFile>
+    <StartupFile>AdvancedDefaultArgument.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AdvancedDefaultArgument.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AdvancedFunction.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DefaultArguments.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="elif.py">
       <SubType>Code</SubType>
     </Compile>
@@ -36,16 +45,25 @@
     <Compile Include="forloop.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Functions.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="If.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="input.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ReturnStatement.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="sample.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="variables.py" />
+    <Compile Include="While.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
