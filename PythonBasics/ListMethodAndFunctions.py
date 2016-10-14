@@ -1,0 +1,12 @@
+partymembers = ["Jack", "Joe", "Jill"]
+print(partymembers)
+partymembers.append("Mary")
+print(partymembers)
+partymembers.insert(0, "Patrick")
+print(partymembers)
+partymembers.remove("Patrick")
+print(partymembers)
+partymembers.reverse()
+print(partymembers)
+partymembers.sort()
+print(partymembers)

@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9c07afcf-3d04-41e1-b2de-2a8a7dff9e04</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AdvancedDefaultArgument.py</StartupFile>
+    <StartupFile>UserDefinedModule.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,13 +24,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AccessListElements.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="AdvancedDefaultArgument.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AdvancedFunction.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ConditionalListStatements.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DefaultArguments.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dictionaries.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="elif.py">
@@ -54,10 +63,40 @@
     <Compile Include="input.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="IntroToLists.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ListMethodAndFunctions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ListOperations.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MoreStringFeatures.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ReturnStatement.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="sample.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StringBasics.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StringOperations.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StringSlicing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Calculator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserDefinedModule.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="variables.py" />
